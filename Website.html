@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sean's Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+    <header class="header">
+        <a href="#home" class="website-name">Sean's Website</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#work">Work</a>
+            <a href="#about">About Me</a>
+        </nav> 
+        <div class="features">
+            <div class="menu">
+                <div class="fas fa-bars" id="bars"></div>
+            </div>
+            <img class="mode">
+        </div>
+    </header>
+    <div id="home">
+        <div class="home">
+            <p class="intro1">Hi, I am <span>Sean</span>.</p>
+            <p class="intro2">My dream is to become a <span>Programmer</span>.</p>
+            <p class="intro3">Current focus: <span>Web Development</span>.</p>
+            <img src="./images/ProgrammingPic.png">
+        </div>
+    </div>
+    <section class="work" id="work">
+        <div class="work-title">
+            <p>My <span>Work</span></p>
+        </div>
+        <div class="work-grid">
+            <div class="work-grid-container">
+                <p class="work-name">Portfolio Project - 1: <span>Trivia Quiz</span></p>
+                <img src="./images/triviaquiz.png">
+                <p>Trivia Quiz is a quiz website that pulls data from <a href="https://opentdb.com/api_config.php" target="_blank" rel="noopener noreferrer">Trivia API</a>.
+                    Questions must be answered correctly in order to move
+                    through the levels. I created this quiz using React JS.</p>
+            </div>
+            <div class="work-grid-container">
+                <p class="work-name">Portfolio Project - 2 <span></span></p>
+                <img src="./images/New.jpg">
+                <p>Work to be added.</p>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-title">
+            <p>About <span>Me</span></p>
+        </div>
+        <div class="education-grid">
+            <div class="education-grid-container">
+                <p class="education-title">Education</p>
+                <p class="sub">APU University (2021 - ?)</p>
+                <img src="./images/APU-University-Malaysia-min.jpg">
+                <p class="description">Starting my first year degree (Computer Science) soon.</p>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="skills-container">
+                <p class="skills-title">Skills</p>
+                <p class="skills-sub">Programming languages:</p>
+                <div class="programming">
+                    <div class="programming-container">
+                        <img src="./images/python.png">
+                        <p class="programming-name">Python</p>
+                        <p class="programming-desc">First programming language I learned.</p>
+                    </div>
+                    <div class="programming-container">
+                        <img src="./images/javascript.png">
+                        <p class="programming-name">Javascript</p>
+                        <p class="programming-desc">I mainly learned this language for web development.</p>
+                    </div>
+                </div>
+                <p class="skills-sub">Web development:</p>
+                <div class="programming">
+                    <div class="programming-container">
+                        <img src="./images/html.png">
+                        <p class="programming-name">Html</p>
+                        <p class="programming-desc">Basic markup language to display things on a website.</p>
+                    </div>
+                    <div class="programming-container">
+                        <img src="./images/css.png">
+                        <p class="programming-name">Css</p>
+                        <p class="programming-desc">Used for designing the website.</p>
+                    </div>
+                    <div class="programming-container">
+                        <img src="./images/react.png">
+                        <p class="programming-name">ReactJS</p>
+                        <p class="programming-desc">A Javascript library. Make creating websites or apps more efficient.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>Created by <span>Sean Khoo</span> | All Rights Reserved.</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
